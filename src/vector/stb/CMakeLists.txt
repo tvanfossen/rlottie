@@ -1,5 +1,5 @@
 if(LOTTIE_MODULE)
-    add_library(rlottie-image-loader SHARED
+    add_library(rlottie-image-loader STATIC
                 stb_image.cpp
                )
     if(NOT MSVC)
